@@ -1,22 +1,26 @@
-node_modules
+node_modules/
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
 
 .DS_Store
-.cache
+.cache/
 .env
-.vercel
-.output
-.vinxi
-
-/build/
-/api/
-/server/build
-/public/build
-.vinxi
-# Sentry Config File
 .env.sentry-build-plugin
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+
+# 构建产物和缓存
+.nitro/
+.tanstack/
+.vinxi/
+.output/
+.vercel/
+build/
+api/
+server/build/
+public/build/
+
+# 测试相关
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/

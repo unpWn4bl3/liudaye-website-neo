@@ -1,20 +1,27 @@
 {
-  "../../../../~start/default-client-entry.tsx": {
-    "file": "assets/main-L3b0IeBK.js",
+  "C:/Users/smile/Desktop/liudaye-website-neo/src/styles/app.css": {
+    "file": "assets/app-DsffGd0d.css",
+    "src": "C:/Users/smile/Desktop/liudaye-website-neo/src/styles/app.css"
+  },
+  "src/client.tsx": {
+    "file": "assets/main-DnU-t-vy.js",
     "name": "main",
-    "src": "../../../../~start/default-client-entry.tsx",
+    "src": "src/client.tsx",
     "isEntry": true,
     "dynamicImports": [
       "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/app-DsffGd0d.css"
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-CltbQ6Mc.js",
+    "file": "assets/index-LeyVG9cN.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "../../../../~start/default-client-entry.tsx"
+      "src/client.tsx"
     ]
   }
 }
